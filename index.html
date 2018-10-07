@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./etherproject.js"></script> 
+  </head>
+   
+    <h1>Ether Io</h1>
+
+  <body>
+
+      <div class='dash-container'><!-- container to have main dash -->
+          <div class='dash'><!--  inner dash container -->
+            <!-- two main items of inner dash -->
+            <div  class='totalSupply'>Total Supply of Ether:
+                 <p> id= 'supply'> </p>   
+            </div>
+
+            <div class='EtherLastPrice'>Ether Last Price</div>
+            <p> id= 'price'> </p>
+          </div>
+        </div>
+       <!--  to get account balance -->
+    <form onsubmit="showBalance()">
+        Please enter the address to retrieve the balance:  <input type="text">
+        <input type="submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+* 
+h1 {
+    color: rgb(19, 16, 16);
+    margin-left: 600px;
+}
+
+   *{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .dash-container {
+    display: flex;
+    width: 900px;
+    height: 300px;
+    color: #fff;
+    background-color: rgb(145, 181, 223);  /* Blue */
+    padding: 20px 0;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid black;
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .dash {
+    border: 1px solid rgb(14, 12, 12);
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .totalSupply {
+
+    border: 1px solid rgb(14, 12, 12);
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px
+  }
+
+  .EtherLastPrice {
+    border: 1px solid rgb(14, 12, 12);
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px
+
+  }
+
+ 
